@@ -60,7 +60,7 @@ li { margin: 0.7rem 0; }
 .w {
   max-width: 640px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  // padding: 4rem 2rem;
 }
 
 hr {
@@ -122,8 +122,14 @@ social-icons {
 }
 
 .main {
+  position: absolute;
+  top: 11.5em;
   padding-top: 2.2em;
   padding-bottom: 2em;
+}
+
+.social {
+  padding-top: 1.2em;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -150,4 +156,29 @@ social-icons {
   content: "";
   display: table;
   clear: both;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+
+  h1 {
+    line-height: 0;
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
+
+  h4 { 
+    margin-top: 0.0em;
+    margin-bottom: 0.0em;
+  }
+
+  margin-bottom: 1.2em;
+  padding-top: 5em;
+}
+
+.footer {
+  position:absolute;
+  bottom:0;
+  padding-bottom: 5em;
 }
