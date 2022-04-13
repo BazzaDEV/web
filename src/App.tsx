@@ -1,7 +1,7 @@
-import React from "react";
+import React, { ReactElement } from "react";
 
-function App() {
-  return <div>Hello there!</div>;
+function App(): ReactElement {
+  return <div>App</div>;
 }
 
 export default App;
